@@ -1,0 +1,35 @@
+# Android
+.gradle/
+local.properties
+.idea/
+*.iml
+build/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Secrets
+*.jks
+*.keystore
+*.key
+*.pem
+.env
+.env.*
+
+# ESP32 / firmware — LOCAL ONLY
+esp32/
+ESP32/
+firmware/
+Firmware/
+*.ino
+*.bin
+*.elf
+*.hex
+*.uf2
+platformio.ini
+.pio/
+tpms_raw/
+rf_captures/
+calibration_private/
+PMV_C210_DARBAK_RUNTIME*
